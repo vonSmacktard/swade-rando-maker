@@ -1,0 +1,52 @@
+{
+  "id": "swade-rando-maker",
+  "title": "SWADE Rando Maker",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Baron von Smacktard",
+      "email": "baron@smacktard.com",
+      "discord": "Baron von Smacktard",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "randomaker-macros",
+      "label": "RandoMaker Macros",
+      "path": "packs/randomaker-macros",
+      "type": "Macro",
+      "system": "swade",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "randomaker-tables",
+      "label": "RandoMaker Tables",
+      "path": "packs/randomaker-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    },
+    {
+      "name": "randomaker-items",
+      "label": "RandoMaker Items",
+      "path": "packs/randomaker-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    }
+  ]
+}
